@@ -73,8 +73,8 @@ module case_top() {
                 // Cone
                 cylinder(wall_thickness, hole_r, hole_h, center = false, $fn = segments);
 
-            // Mounting hole 2 (top right)
-            translate([case_width-4.5-hole_r*3+1, hole_h, 0])
+            // Mounting hole 3 (bottom right)
+            translate([case_width-4.5-hole_r*3+1, 2, 0])
                 // Cone
                 cylinder(wall_thickness, hole_r, hole_h, center = false, $fn = segments);
             
